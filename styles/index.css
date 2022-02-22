@@ -25,7 +25,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+.navigation li {
     display: inline-block;
     padding: 5px;
     color: white;
@@ -35,8 +35,33 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
     border-bottom: 2px solid #439b44;
+}
+
+.footer {
+    background-color: #585858;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__left {
+    height: 150px;
+}
+
+#bottom-logo {
+    width: 221px;
+    height: 41px;
+    margin-bottom: 0;
+}
+
+.footer__left li {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
 }
