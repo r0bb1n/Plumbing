@@ -52,6 +52,8 @@ a:hover {
 
 .footer__left {
     height: 150px;
+    margin-left: 25px;
+    margin-top: 15px;
 }
 
 #bottom-logo {
