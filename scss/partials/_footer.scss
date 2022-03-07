@@ -31,17 +31,6 @@
         width: 400px;
     }
     
-    &__right p {
-        background-color: #53C154;
-        height: 40px;
-        width: 190px;
-        border-radius: 5px 5px 0px 0px;
-        text-align: center;
-        font-size: 15px;
-        color: white;
-        margin-bottom: 0;
-    }
-    
     .footer__right:nth-child(2) {
         justify-content: flex-end;
     }
