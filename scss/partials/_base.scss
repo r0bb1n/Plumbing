@@ -18,8 +18,8 @@
     img {
         height: auto; 
         width: auto; 
-        max-height: 600px;
-        max-width: 900px;
+        max-height: 700px;
+        max-width: 1000px;
     }
 
     &__content {
@@ -27,3 +27,39 @@
         text-align: center;
     }
 }
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: $site-width;
+    flex-wrap: wrap;
+
+    &__img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 1000px;
+    }
+
+    img:nth-child(odd) {
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        max-height: 205px;
+        margin: 25px 25px 25px 25px;
+    }
+
+    img:nth-child(even) {
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        margin: 25px 25px 25px 25px;
+    }
+
+    &__container {
+        text-align: center;
+    }
+}
+
+
