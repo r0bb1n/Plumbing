@@ -54,4 +54,49 @@
     }
 }
 
+.top {
+    width: $site-width;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 250px;
 
+    &__left {
+        width: 475px;
+    }
+
+    &__right {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__input {
+        width: 475px;
+        height: 37px;
+        border: none;
+        border-bottom: 2px solid $light-grey;
+        margin: 23px 0px 10px 0px;
+    }
+
+    &__btn {
+        background-color: $blue;
+        height: 50px;
+        width: 125px;
+        color: white;
+        border: none;
+        margin: 23px 0px 10px 0px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    
+}
+
+.mapouter{position:relative;text-align:right;height:500px;width:900px;}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:900px;margin: 25px 0px 25px 0px;}
