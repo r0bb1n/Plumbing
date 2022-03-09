@@ -33,28 +33,20 @@
     flex-direction: row;
     justify-content: center;
     width: $site-width;
-    flex-wrap: wrap;
 
-    &__img {
+    &__container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        width: 1000px;
+        width: 300px;
+        margin: 25px 25px 25px 25px;
     }
 
-    img:nth-child(odd) {
+    img {
         width: auto;
         height: auto;
         max-width: 300px;
         max-height: 205px;
-        margin: 25px 25px 25px 25px;
-    }
-
-    img:nth-child(even) {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        margin: 25px 25px 25px 25px;
     }
 
     &__container {
