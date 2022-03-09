@@ -55,48 +55,47 @@
 }
 
 .top {
-    width: $site-width;
-    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 250px;
+    width: 1000px;
+    margin: $margins;
 
     &__left {
-        width: 475px;
+        width: 600px;
+        text-align: center;
     }
 
     &__right {
-        
+        width: 400px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
     &__input {
-        width: 475px;
+        width: 300px;
         height: 37px;
         border: none;
-        border-bottom: 2px solid $light-grey;
-        margin: 23px 0px 10px 0px;
+        border-bottom: 2px solid #53C154;
+        margin-bottom: 10px;
     }
 
     &__btn {
-        background-color: $blue;
+        background-color: #53C154;
         height: 50px;
         width: 125px;
         color: white;
         border: none;
-        margin: 23px 0px 10px 0px;
+        margin-top: 10px;
 
         &:hover {
             cursor: pointer;
         }
     }
-    
 }
 
-.mapouter{position:relative;text-align:right;height:500px;width:900px;}
+.mapouter{text-align:right;height:500px;width:1000px;margin: 25px 0px 25px 0px;}
 
-.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:900px;margin: 25px 0px 25px 0px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1000px;}
